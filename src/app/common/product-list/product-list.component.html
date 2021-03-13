@@ -20,7 +20,7 @@
       <td>{{ product.featured }}</td>
       <td>{{ product.active }}</td>
       <td>
-        <button type="button" class="btn btn-danger">
+        <button type="button" class="btn btn-danger" (click)="onDelete(product)">
           <i class="fa fa-trash" aria-hidden="true"></i>
         </button>
       </td>
